@@ -1,0 +1,196 @@
+body {
+  background-color: #f4f6f9;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+.train {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.selected {
+  background-color: #4f8df9;
+  color: #fff;
+}
+
+.default {
+  background-color: #e9efff;
+  color: #333;
+}
+
+.btn-add,
+.btn-delete {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-add {
+  background-color: #4f8df9;
+  color: #fff;
+}
+
+.btn-add:hover {
+  background-color: #3a6fcd;
+  transform: translateY(-2px);
+}
+
+.btn-delete {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.btn-delete:hover {
+  background-color: #e05555;
+  transform: translateY(-2px);
+}
+
+.myInput,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.myInput:focus,
+textarea:focus {
+  border-color: #4f8df9;
+  outline: none;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #4f8df9;
+}
+
+section {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.training-plan {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.training-plan h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4f8df9;
+}
+
+.training-plan label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.training-placeholder {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  color: #999;
+  font-size: 18px;
+}
+
+.add-exercise {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-exercise input {
+  flex: 1;
+}
+
+.add-exercise .btn-add {
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: #4f8df9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 100%;
+}
+
+.add-exercise .btn-add:hover {
+  background-color: #3a6fcd;
+}
+
+.exercise-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.exercise-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.exercise-name {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
