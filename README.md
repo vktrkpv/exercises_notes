@@ -1,12 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🏋️‍♀️ Weekly Training Plan App
 
-Currently, two official plugins are available:
+🚀 **Weekly Training Plan** is a simple web application that helps you organize your weekly workouts.  
+Create training days, add exercises, and track your progress easily with checkboxes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Live Demo  
+[🔗 Open the App on Netlify](https://gorgeous-chebakia-2eb0da.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Screenshot  
+![Weekly Training Plan App](<img width="1439" alt="Image" src="https://github.com/user-attachments/assets/3a7c594f-1dcf-45d1-b965-54768449300b" />)
+
+---
+
+## 📦 Technologies Used  
+- ⚛️ **React** – for building the UI  
+- 🎨 **CSS** – for styling  
+- 🔥 **Netlify** – for hosting  
+- 💾 **LocalStorage** – for saving your data locally  
