@@ -12,7 +12,8 @@ Create training days, add exercises, and track your progress easily with checkbo
 ---
 
 ## 🖼️ Screenshot  
-![Weekly Training Plan App](<img width="1439" alt="Image" src="https://github.com/user-attachments/assets/3a7c594f-1dcf-45d1-b965-54768449300b" />)
+![Weekly Training Plan App](https://github.com/user-attachments/assets/3a7c594f-1dcf-45d1-b965-54768449300b)
+
 
 ---
 
